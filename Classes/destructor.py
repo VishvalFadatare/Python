@@ -12,5 +12,9 @@ class Student:
         
     def show(self,name):
         print("Hello",name)
+        
+    def __del__(self):
+        print("Deleted...")
 s=Student()
 s.show("Vishval")
+del s

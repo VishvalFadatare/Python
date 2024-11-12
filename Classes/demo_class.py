@@ -1,4 +1,4 @@
-#Constructor 
+#Class demo
 class Student:
     def show(self):
         print("Hello")
